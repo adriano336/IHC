@@ -124,6 +124,7 @@
     <Content Include="App_Themes\LanterVermelha\img\favicon.png" />
     <Content Include="App_Themes\LanterVermelha\img\glyphicons-halflings-white.png" />
     <Content Include="App_Themes\LanterVermelha\img\glyphicons-halflings.png" />
+    <Content Include="Page\contato.html" />
     <Content Include="Page\index.html" />
     <Content Include="App_Themes\LanterVermelha\js\bootstrap.min.js" />
     <Content Include="App_Themes\LanterVermelha\js\html5shiv.js" />
