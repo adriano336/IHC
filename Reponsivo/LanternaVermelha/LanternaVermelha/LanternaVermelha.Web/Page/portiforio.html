@@ -13,6 +13,7 @@
 
     <link href="../App_Themes/LanterVermelha/css/bootstrap.min.css" rel="stylesheet">
     <link href="../App_Themes/LanterVermelha/css/style.css" rel="stylesheet">
+    <link href="../App_Themes/LanterVermelha/css/shadowbox.css" rel="stylesheet" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../App_Themes/LanterVermelha/js/html5shiv.js"></script>
@@ -27,6 +28,10 @@
     <script type="text/javascript" src="../App_Themes/LanterVermelha/js/jquery.min.js"></script>
     <script type="text/javascript" src="../App_Themes/LanterVermelha/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../App_Themes/LanterVermelha/js/scripts.js"></script>
+    <script src="../App_Themes/LanterVermelha/js/shadowbox.js"></script>
+    <script type="text/javascript">
+        Shadowbox.init();
+    </script>
 </head>
 <body>
     <div class="navbar navbar-default navbar-static-top navbar-inverse">
@@ -95,30 +100,72 @@
 
         <!-- Content -->
         <div class="row clearfix">
-            <div class="col-md-12 column">
-                <div class="jumbotron" contenteditable="false">
-                    <h1>Bem-vindo à nova Lanterna Vermelha Design</h1>
-                    <p>
-                        A Lanterna Vermelha é uma pequena firma de Web design e consultoria
-                        especializada no design Web e no desenvolvimento baseados em padrões.
-                        Nosso objetivo é construir páginas Web simples e bonitas que tornam suas
-                        informações fáceis de encontrar e deixam seus usuários contentes.
-                        Se você ou sua empresa estiver interessado em trabalhar conosco,
-                        verifique nosso portfólio de design e trabalho de qualidade e entre em
-                        contato com os detalhes de seu projeto. Esperamos seu contato e tornar
-                        sua presença na Web um pouco mais simples e fácil de encontrar.
-                    </p>
-                    <p><a class="btn btn-primary btn-lg" role="button" href="/Page/portiforio.html">Exiba nosso portfólio completo</a></p>
-                    <p><a class="btn btn-primary btn-lg" role="button" href="/Page/contato.html">Contate a Lanterna Vermelha</a></p>
+            <div class="col-md-6 column">
+                <div class="row clearfix">
+                    <div class="col-md-4 column">
+                        <a href="/App_Themes/LanterVermelha/img/portif1.jpg" rel="shadow"></a>
+                        <img alt="140x140" class="img-responsive img-thumbnail" src="/App_Themes/LanterVermelha/img/portif1.jpg">
+                    </div>
+                    <div class="col-md-4 column">
+                        <img alt="140x140" class="img-responsive img-thumbnail" src="/App_Themes/LanterVermelha/img/portif2.jpg">
+                    </div>
+                    <div class="col-md-4 column">
+                        <img alt="140x140" class="img-responsive img-thumbnail" src="/App_Themes/LanterVermelha/img/portif3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 column">
+                <dl>
+                    <dt>
+                        Description lists
+                    </dt>
+                    <dd>
+                        A description list is perfect for defining terms.
+                    </dd>
+                    <dt>
+                        Euismod
+                    </dt>
+                    <dd>
+                        Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                    </dd>
+                    <dd>
+                        Donec id elit non mi porta gravida at eget metus.
+                    </dd>
+                    <dt>
+                        Malesuada porta
+                    </dt>
+                    <dd>
+                        Etiam porta sem malesuada magna mollis euismod.
+                    </dd>
+                    <dt>
+                        Felis euismod semper eget lacinia
+                    </dt>
+                    <dd>
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-md-6 column">
+                <div class="row clearfix">
+                    <div class="col-md-4 column">
+                        <img alt="140x140" class="img-responsive img-thumbnail" src="/App_Themes/LanterVermelha/img/portif4.png">
+                    </div>
+                    <div class="col-md-4 column">
+                        <img alt="140x140" class="img-responsive img-thumbnail" src="/App_Themes/LanterVermelha/img/portif5.png">
+                    </div>
+                    <div class="col-md-4 column">
+                        <img alt="140x140" class="img-responsive img-thumbnail" src="/App_Themes/LanterVermelha/img/portif6.jpg">
+                    </div>
                 </div>
             </div>
         </div>
         <!-- End content -->
     </div>
     <div id="footer" class="bkcolor">
-        <div class="container">
-            <p class="text-muted">Todos os direitos reservados</p><br />
-        </div>
+        <p class="text-muted">Todos os direitos reservados</p><br />
     </div>
 </body>
 </html>

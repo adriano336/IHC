@@ -57,12 +57,19 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\LanterVermelha\css\shadowbox.css" />
     <Content Include="App_Themes\LanterVermelha\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="App_Themes\LanterVermelha\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="App_Themes\LanterVermelha\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="App_Themes\LanterVermelha\img\japanese-lantern.gif" />
+    <Content Include="App_Themes\LanterVermelha\img\portif1.jpg" />
+    <Content Include="App_Themes\LanterVermelha\img\portif2.jpg" />
+    <Content Include="App_Themes\LanterVermelha\img\portif3.jpg" />
+    <Content Include="App_Themes\LanterVermelha\img\portif4.png" />
+    <Content Include="App_Themes\LanterVermelha\img\portif5.png" />
+    <Content Include="App_Themes\LanterVermelha\img\portif6.jpg" />
     <Content Include="App_Themes\LanterVermelha\img\red-lantern_f.jpg" />
-    <Content Include="App_Themes\LanterVermelha\img\Thumbs.db" />
+    <Content Include="App_Themes\LanterVermelha\js\shadowbox.js" />
     <Content Include="App_Themes\LanterVermelha\less\alerts.less" />
     <Content Include="App_Themes\LanterVermelha\less\badges.less" />
     <Content Include="App_Themes\LanterVermelha\less\bootstrap.less" />
@@ -124,6 +131,7 @@
     <Content Include="App_Themes\LanterVermelha\img\favicon.png" />
     <Content Include="App_Themes\LanterVermelha\img\glyphicons-halflings-white.png" />
     <Content Include="App_Themes\LanterVermelha\img\glyphicons-halflings.png" />
+    <Content Include="Page\consultoria.html" />
     <Content Include="Page\contato.html" />
     <Content Include="Page\index.html" />
     <Content Include="App_Themes\LanterVermelha\js\bootstrap.min.js" />
@@ -131,6 +139,9 @@
     <Content Include="App_Themes\LanterVermelha\js\jquery.min.js" />
     <Content Include="App_Themes\LanterVermelha\js\less-1.3.3.min.js" />
     <Content Include="App_Themes\LanterVermelha\js\scripts.js" />
+    <Content Include="Page\novidades.html" />
+    <Content Include="Page\portiforio.html" />
+    <Content Include="Page\webdesign.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
