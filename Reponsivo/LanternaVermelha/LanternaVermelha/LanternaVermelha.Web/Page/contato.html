@@ -59,121 +59,126 @@
     </script>
 </head>
 <body>
-    <div class="navbar navbar-default navbar-static-top navbar-inverse">
-        <style>
-            .body {
-                padding-top: 70px;
-            }
-        </style>
-        <style>
-            .bkcolor {
-                background-color: #992230;
-            }
-        </style>
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><span class="icon-bar">
-                    </span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </button> <a class="navbar-brand" href="/Page/index.html">Home</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/Page/portiforio.html">Portifório</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<strong class="caret"></strong></a>
-                        <ul role="menubar" class="dropdown-menu">
-                            <li>
-                                <a href="/Page/webdesign.html">Web design</a>
-                            </li>
-                            <li>
-                                <a href="/Page/consultoria.html">Consultoria</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="/Page/novidades.html">Novidades</a>
-                    </li>
-                    <li>
-                        <a href="/Page/contato.html">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row clearfix">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <div class="row clearfix">
-                        <div class="col-md-2">
-                            <img alt="140x140" src="/App_Themes/LanterVermelha/img/japanese-lantern.gif">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10">
-                            <h1 style="color: red">
-                                Lanterna vermelha
-                            </h1>
-                        </div>
-                    </div>
+    <div id="wrap">
+        <div class="navbar navbar-default navbar-static-top navbar-inverse">
+            <style>
+                .body {
+                    padding-top: 70px;
+                }
+            </style>
+            <style>
+                .bkcolor {
+                    background-color: #992230;
+                }
+            </style>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar">
+                        </span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/Page/index.html">Home</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/Page/portiforio.html">Portifório</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<strong class="caret"></strong></a>
+                            <ul role="menubar" class="dropdown-menu">
+                                <li>
+                                    <a href="/Page/webdesign.html">Web design</a>
+                                </li>
+                                <li>
+                                    <a href="/Page/consultoria.html">Consultoria</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Page/novidades.html">Novidades</a>
+                        </li>
+                        <li>
+                            <a href="/Page/contato.html">Contato</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Content -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>Fale conosco</h1>
-                </div>
-                <div class="col-md-6">
-                    <h1>Nosso endereço</h1>
-                    <div class="page-header"></div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <form role="form">
-                        <div class="form-group">
-                            <label for="Nome">Nome *</label>
-                            <input class="form-control" id="Nome" name="Nome" type="text">
+        <div id="main">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <div class="row clearfix">
+                                <div class="col-md-2">
+                                    <img alt="140x140" src="/App_Themes/LanterVermelha/img/japanese-lantern.gif">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h1 style="color: red">Lanterna vermelha
+                                    </h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="Email">Email *</label>
-                            <input class="form-control" id="Email" name="Email" type="text">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Telefone (Usar somente números)</label>
-                            <input class="form-control" id="exampleInputPassword1" placeholder="21999999999" type="text">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Assunto</label>
-                            <input class="form-control" id="exampleInputPassword1" type="text">
-                        </div>
-                        <button type="submit" class="btn btn-default">Enviar</button>
-                    </form>
-                    <br />
-                    <div class="alert alert-dismissable alert-danger" id="alerta">
-                        <strong>Os campos em marcados com (*) são obrigatórios</strong>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="col-md-12 column">
-                        <div class="view">
-                            <address contenteditable="true">
-                                <strong>Lanterna vermelha designer.</strong><br>
-                                Rua Copa do Mundo nº 06<br>
-                                Rio de Janeiro - RJ 24589-006<br>
-                                <abbr title="Phone">Tel:</abbr>
-                                (89) 99998-9879<br>
-                                (89) 89789-8878<br>
-                                (89) 2689-9852<br>
-                            </address>
+
+                <!-- Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>Fale conosco</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Nosso endereço</h1>
+                            <div class="page-header"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="Nome">Nome *</label>
+                                    <input class="form-control" id="Nome" name="Nome" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email">Email *</label>
+                                    <input class="form-control" id="Email" name="Email" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Telefone (Usar somente números)</label>
+                                    <input class="form-control" id="exampleInputPassword1" placeholder="21999999999" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Assunto</label>
+                                    <input class="form-control" id="exampleInputPassword1" type="text">
+                                </div>
+                                <button type="submit" class="btn btn-default">Enviar</button>
+                            </form>
+                            <br />
+                            <div class="alert alert-dismissable alert-danger" id="alerta">
+                                <strong>Os campos em marcados com (*) são obrigatórios</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-12 column">
+                                <div class="view">
+                                    <address contenteditable="true">
+                                        <strong>Lanterna vermelha designer.</strong><br>
+                                        Rua Copa do Mundo nº 06<br>
+                                        Rio de Janeiro - RJ 24589-006<br>
+                                        <abbr title="Phone">Tel:</abbr>
+                                        (89) 99998-9879<br>
+                                        (89) 89789-8878<br>
+                                        (89) 2689-9852<br>
+                                    </address>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -183,7 +188,8 @@
     </div>
     <div id="footer" class="bkcolor">
         <div class="container">
-            <p class="text-muted">Todos os direitos reservados</p><br />
+            <p class="text-muted">Todos os direitos reservados</p>
+            <br />
         </div>
     </div>
 </body>
