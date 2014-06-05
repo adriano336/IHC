@@ -42,19 +42,16 @@
                 invalido = true;
             }
 
-            $('#alerta').open();
+            return invalido;
         }
 
-        function submit() {
-            if (!validar()) {
-                $('input').val('');
-                $('#alerta').close();
+        $("form").submit(function (event) {
+            if (validar()) {
+                $("span").text("Dados inválidos").show().fadeOut(3000);
+                event.preventDefault();
+                return;
             }
-
-            $("submit").click(function () {
-                submit();
-            });
-        }
+        });
 
     </script>
 </head>
@@ -118,7 +115,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-10">
-                                    <h1 style="color: red">Lanterna vermelha
+                                    <h1 style="color: red">
+                                        Lanterna vermelha
                                     </h1>
                                 </div>
                             </div>
@@ -141,7 +139,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <form role="form">
+                            <form role="form" method="GET">
                                 <div class="form-group">
                                     <label for="Nome">Nome *</label>
                                     <input class="form-control" id="Nome" name="Nome" type="text">
@@ -149,6 +147,11 @@
                                 <div class="form-group">
                                     <label for="Email">Email *</label>
                                     <input class="form-control" id="Email" name="Email" type="text">
+                                    <!--<span>
+                                            <div class="alert alert-dismissable alert-danger" id="alerta">
+                                                <strong>Os campos em marcados com (*) são obrigatórios</strong>
+                                            </div>
+                                        </span>-->
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Telefone (Usar somente números)</label>
@@ -156,14 +159,17 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Assunto</label>
-                                    <input class="form-control" id="exampleInputPassword1" type="text">
+                                    <textarea class="form-control" id="exampleInputPassword1" rows="4"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-default">Enviar</button>
                             </form>
                             <br />
-                            <div class="alert alert-dismissable alert-danger" id="alerta">
+                            <span class="alert alert-dismissable alert-danger" id="alerta">
                                 <strong>Os campos em marcados com (*) são obrigatórios</strong>
-                            </div>
+                            </span>
+                            <br />
+                            <br />
+
                         </div>
                         <div class="col-md-6">
                             <div class="col-md-12 column">
@@ -194,3 +200,4 @@
     </div>
 </body>
 </html>
+</textarea>

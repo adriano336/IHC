@@ -27,125 +27,108 @@
     <script type="text/javascript" src="../App_Themes/LanterVermelha/js/jquery.min.js"></script>
     <script type="text/javascript" src="../App_Themes/LanterVermelha/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../App_Themes/LanterVermelha/js/scripts.js"></script>
+    <script src="../App_Themes/LanterVermelha/js/shadowbox.js"></script>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/prototype/1.7.0/prototype.js'></script>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/scriptaculous/1/scriptaculous.js'></script>
+    <script type='text/javascript' src='/App_Themes/LanterVermelha/lightview2.8.0/js/lightview.js'></script>
+    <link rel="stylesheet" type="text/css" href="/App_Themes/LanterVermelha/lightview2.8.0/css/lightview.css" />
 </head>
 <body>
-    <div class="navbar navbar-default navbar-static-top navbar-inverse">
-        <style>
-            .body {
-                padding-top: 70px;
-            }
-        </style>
-        <style>
-            .bkcolor {
-                background-color: #992230;
-            }
-        </style>
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><span class="icon-bar">
-                    </span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </button> <a class="navbar-brand" href="/Page/index.html">Home</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/Page/portiforio.html">Portifório</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<strong class="caret"></strong></a>
-                        <ul role="menubar" class="dropdown-menu">
-                            <li>
-                                <a href="/Page/webdesign.html">Web design</a>
-                            </li>
-                            <li>
-                                <a href="/Page/consultoria.html">Consultoria</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="/Page/novidades.html">Novidades</a>
-                    </li>
-                    <li>
-                        <a href="/Page/contato.html">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row clearfix">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <div class="row clearfix">
-                        <div class="col-md-2">
-                            <img alt="140x140" src="/App_Themes/LanterVermelha/img/japanese-lantern.gif">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10">
-                            <h1 style="color: red">
-                                Lanterna vermelha
-                            </h1>
-                        </div>
-                    </div>
+    <div id="wrap">
+        <div class="navbar navbar-default navbar-static-top navbar-inverse">
+            <style>
+                .body {
+                    padding-top: 70px;
+                }
+            </style>
+            <style>
+                .bkcolor {
+                    background-color: #992230;
+                }
+            </style>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar">
+                        </span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/Page/index.html">Home</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/Page/portiforio.html">Portifório</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<strong class="caret"></strong></a>
+                            <ul role="menubar" class="dropdown-menu">
+                                <li>
+                                    <a href="/Page/webdesign.html">Web design</a>
+                                </li>
+                                <li>
+                                    <a href="/Page/consultoria.html">Consultoria</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Page/novidades.html">Novidades</a>
+                        </li>
+                        <li>
+                            <a href="/Page/contato.html">Contato</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Content -->
-        <div class="row clearfix">
-            <div class="col-md-6 column">
+        <div id="main">
+            <div class="container">
                 <div class="row clearfix">
-                    <div class="col-md-4 column">
-                        <img alt="140x140" src="http://lorempixel.com/140/140/">
-                    </div>
-                    <div class="col-md-4 column">
-                        <img alt="140x140" src="http://lorempixel.com/140/140/">
-                    </div>
-                    <div class="col-md-4 column">
-                        <img alt="140x140" src="http://lorempixel.com/140/140/">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <div class="row clearfix">
+                                <div class="col-md-2">
+                                    <img alt="140x140" src="/App_Themes/LanterVermelha/img/japanese-lantern.gif">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h1 style="color: red">
+                                        Lanterna vermelha
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 column">
-                <dl>
-                    <dt>
-                        Description lists
-                    </dt>
-                    <dd>
-                        A description list is perfect for defining terms.
-                    </dd>
-                    <dt>
-                        Euismod
-                    </dt>
-                    <dd>
-                        Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-                    </dd>
-                    <dd>
-                        Donec id elit non mi porta gravida at eget metus.
-                    </dd>
-                    <dt>
-                        Malesuada porta
-                    </dt>
-                    <dd>
-                        Etiam porta sem malesuada magna mollis euismod.
-                    </dd>
-                    <dt>
-                        Felis euismod semper eget lacinia
-                    </dt>
-                    <dd>
-                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-                    </dd>
-                </dl>
+
+                <!-- Content -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1>Consultoria em web designer</h1>
+                        </div>
+                        <div class="col-md-12">
+                            <p>
+                                Um site na internet não é mais um luxo para poucas empresas, e sim uma regra geral para aquelas que querem sobreviver em um mercado cada vez mais acirrado e num mundo cada vez mais globalizado. Atualmente o Brasil é o país que mais cresce no
+                                cenário mundial no quesito Usuário de Internet, ganhando dos Estados Unidos. A Interatividade, velocidade e segurança para navegar hoje em dia forçaram à redução de preços cobrados pelo acesso à rede. Isso fez com que a internet deixasse de
+                                ser usada só para meras pesquisas, e tornou-se uma ferramenta importantíssima para Marketing e Vendas.
+                                <br>Antes de começar a desenvolver um projeto web, é necessário saber o que seus clientes querem quando entram em seu site, é necessário satisfazê-los, cativá-los para que se sintam seguros em relação a sua empresa e percebam os valores que a
+                                destacam no mercado!
+                                <br>Entre em <a href="contato.html">contato</a>.
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End content -->
             </div>
         </div>
-        <!-- End content -->
     </div>
     <div id="footer" class="bkcolor">
-        <div class="container">
-            <p class="text-muted">Todos os direitos reservados</p><br />
-        </div>
+        <p class="text-muted">Todos os direitos reservados</p>
+        <br />
     </div>
 </body>
 </html>

@@ -1,9 +1,154 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <title>Bootstrap 3, from LayoutIt!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+    <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+    <!--script src="js/less-1.3.3.min.js"></script-->
+    <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+    <link href="../App_Themes/LanterVermelha/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../App_Themes/LanterVermelha/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../App_Themes/LanterVermelha/js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../App_Themes/LanterVermelha/img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../App_Themes/LanterVermelha/img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../App_Themes/LanterVermelha/img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../App_Themes/LanterVermelha/img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../App_Themes/LanterVermelha/img/favicon.png">
+
+    <script type="text/javascript" src="../App_Themes/LanterVermelha/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/LanterVermelha/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/LanterVermelha/js/scripts.js"></script>
+    <script src="../App_Themes/LanterVermelha/js/shadowbox.js"></script>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/prototype/1.7.0/prototype.js'></script>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/scriptaculous/1/scriptaculous.js'></script>
+    <script type='text/javascript' src='/App_Themes/LanterVermelha/lightview2.8.0/js/lightview.js'></script>
+    <link rel="stylesheet" type="text/css" href="/App_Themes/LanterVermelha/lightview2.8.0/css/lightview.css" />
 </head>
 <body>
+    <div id="wrap">
+        <div class="navbar navbar-default navbar-static-top navbar-inverse">
+            <style>
+                .body {
+                    padding-top: 70px;
+                }
+            </style>
+            <style>
+                .bkcolor {
+                    background-color: #992230;
+                }
+            </style>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar">
+                        </span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/Page/index.html">Home</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/Page/portiforio.html">Portifório</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<strong class="caret"></strong></a>
+                            <ul role="menubar" class="dropdown-menu">
+                                <li>
+                                    <a href="/Page/webdesign.html">Web design</a>
+                                </li>
+                                <li>
+                                    <a href="/Page/consultoria.html">Consultoria</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Page/novidades.html">Novidades</a>
+                        </li>
+                        <li>
+                            <a href="/Page/contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
+        <div id="main">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <div class="row clearfix">
+                                <div class="col-md-2">
+                                    <img alt="140x140" src="/App_Themes/LanterVermelha/img/japanese-lantern.gif">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h1 style="color: red">
+                                        Lanterna vermelha
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well">
+                            <h2>Prestamos serviços em:</h2>
+                            <dl>
+                                <dt>
+                                    Desenvolvimento de Portais e Sites Gerenciáveis
+                                </dt>
+                                <dd>
+                                    Sistemas totalmente gerenciados pelo cliente. Utilizando a plataforma WordPress, podemos criar os mais diversos tipos de Portais para os mais diversos segmentos. Treinamento, vídeos didáticos e total suporte na contratação do serviço.
+                                </dd>
+                                <br />
+                                <dt>
+                                    Criação e envio de Newsletter para banco de e-mail pré-determinado
+                                </dt>
+                                <dd>
+                                    Criação de arte para envio de e-mails em massa, atendendo os mais diversificados ramos de negócio. Pode-se ofertar seus produtos /ou serviços, sem restrição de quantidade de mensagens a serem enviadas (necessária prévia análise de capacidade do servidor onde o cliente hospeda seu site).
+                                </dd>
+                                <br />
+                                <dt>
+                                    Desenvolvimento de Blogs em WordPress
+                                </dt>
+                                <dd>
+                                    Criação e configuração de um blog de conteúdo na plataforma WordPress. Similar ao item “Desenvolvimento de Portais e Sites gerenciáveis”.
+                                </dd>
+                                <br />
+                                <dt>
+                                    Desenvolvimento de Sites com Painel Gerenciável apenas para Notícias (sites simples ou portal de notícias)
+                                </dt>
+                                <dd>
+                                    Se o cliente deseja apenas um setor para gerenciar em seu site, tenho a solução perfeita para lhe oferecer: o Painel Gerenciável de Notícias! Simples e intuitivo, oferece total independência de terceiros na atualização de seu conteúdo!
+                                </dd>
+                                <br />
+                            </dl>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End content -->
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="bkcolor">
+        <p class="text-muted">Todos os direitos reservados</p>
+        <br />
+    </div>
 </body>
 </html>
